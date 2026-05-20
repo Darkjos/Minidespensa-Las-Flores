@@ -67,7 +67,7 @@ function Product() {
 
                 {filteredProducts.length === 0 ? (
                     <p className="text-center text-gray-500">
-                        No se encontraron productos 😢
+                        No se encontraron productos 
                     </p>
                 ) : (
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
