@@ -95,7 +95,7 @@ function Home() {
                 <div className="mb-10 text-center">
 
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-                        Productos Destacados
+                        Ofertas del Mes
                     </h2>
 
                     <p className="text-gray-500 mt-2">
