@@ -28,7 +28,7 @@ function ProductCard({ name, description, price, img }) {
           </span>
 
           <button
-          onClick={() => window.open({img}, "_blank", "noopener,noreferrer")} 
+          onClick={() => setOpenImage(img)}
           className="text-sm bg-green-50 text-green-600 px-3 py-1 rounded-full hover:bg-green-100 transition">
             Ver
           </button>
