@@ -71,8 +71,8 @@ function Home() {
 
                 {[
                     { title: "Variedad", desc: "Todo lo que necesitas en un solo lugar" },
-                    { title: "Rápido", desc: "Atención ágil y eficiente" },
-                    { title: "Cercano", desc: "Siempre cerca de tu colonia" },
+                    //{ title: "Rápido", desc: "Atención ágil y eficiente" },
+                    //{ title: "Cercano", desc: "Siempre cerca de tu colonia" },
                 ].map((item, i) => (
                     <div
                         key={i}
