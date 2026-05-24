@@ -36,6 +36,11 @@ function Navbar() {
               Contacto
             </Link>
           </li>
+          <li>
+            <Link className="hover:text-green-600 transition" to="/premios">
+              Premios
+            </Link>
+          </li>
 
         </ul>
 
@@ -70,6 +75,12 @@ function Navbar() {
             <li>
               <Link onClick={() => setMenuOpen(false)} to="/contacto">
                 Contacto
+              </Link>
+            </li>
+
+            <li>
+              <Link onClick={() => setMenuOpen(false)} to="/premios">
+                Premios
               </Link>
             </li>
 
