@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Product from "./pages/Product"
 import Contact from "./pages/Contact"
-import Contact from "./pages/Premios"
+import Premios from "./pages/Premios"
 
 function App() {
   return (
