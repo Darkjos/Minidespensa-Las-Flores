@@ -61,7 +61,7 @@ const Premios = () => {
                         </h3>
 
                         <p className="text-gray-700 font-medium">
-                            10 puntos
+                            5 puntos
                         </p>
 
                         <p className="text-gray-500 mt-3">
@@ -80,7 +80,7 @@ const Premios = () => {
                         </h3>
 
                         <p className="text-gray-700 font-medium">
-                            15 puntos
+                            12 puntos
                         </p>
 
                         <p className="text-gray-500 mt-3">
@@ -120,23 +120,22 @@ const Premios = () => {
                     <ul className="space-y-4 text-gray-600">
 
                         <li>
-                            • Los sellos son personales e intransferibles.
+                            Los sellos vencen cada mes.
                         </li>
-
                         <li>
-                            • Los puntos acumulados pueden canjearse por productos.
+                            Los sellos son personales e intransferibles.
                         </li>
-
                         <li>
-                            • La tarjeta debe presentarse al momento de comprar.
+                            Los puntos acumulados pueden canjearse por productos.
                         </li>
-
                         <li>
-                            • No se entregan sellos después de finalizada la compra.
+                            La tarjeta debe presentarse al momento de comprar.
                         </li>
-
                         <li>
-                            • Los premios están sujetos a disponibilidad.
+                            No se entregan sellos después de finalizada la compra.
+                        </li>
+                        <li>
+                            Los premios están sujetos a disponibilidad.
                         </li>
 
                     </ul>
@@ -150,10 +149,23 @@ const Premios = () => {
 
                 <div className="grid md:grid-cols-3 gap-6">
 
+                    
                     <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
 
                         <h3 className="text-xl font-bold mb-2">
-                            Gaseosa
+                            Dulce Chiclin
+                        </h3>
+
+                        <p className="text-gray-500">
+                            10 puntos
+                        </p>
+
+                    </div>
+
+                    <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+
+                        <h3 className="text-xl font-bold mb-2">
+                            Galleta Chiky
                         </h3>
 
                         <p className="text-gray-500">
@@ -165,7 +177,7 @@ const Premios = () => {
                     <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
 
                         <h3 className="text-xl font-bold mb-2">
-                            Chocolate
+                            Coca Cola de lata
                         </h3>
 
                         <p className="text-gray-500">
@@ -173,15 +185,41 @@ const Premios = () => {
                         </p>
 
                     </div>
+                    
+                    
+                    
+                    <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+
+                        <h3 className="text-xl font-bold mb-2">
+                            Coca Cola de lata + Churrito diana
+                        </h3>
+
+                        <p className="text-gray-500">
+                            150 puntos
+                        </p>
+
+                    </div>
 
                     <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
 
                         <h3 className="text-xl font-bold mb-2">
-                            Snack
+                            Cascada Lit
                         </h3>
 
                         <p className="text-gray-500">
-                            100 puntos
+                            200 puntos
+                        </p>
+
+                    </div>
+
+                    <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+
+                        <h3 className="text-xl font-bold mb-2">
+                            Gaseosa Coca Cola 3 Litros
+                        </h3>
+
+                        <p className="text-gray-500">
+                            500 puntos
                         </p>
 
                     </div>

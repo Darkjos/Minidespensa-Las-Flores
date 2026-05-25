@@ -59,33 +59,16 @@ function Home() {
                         >
                             Ver Productos
                         </Link>
+                        <Link
+                            to="/premios"
+                            className="inline-block mt-4 sm:mt-0 sm:ml-4 bg-white text-green-600 font-semibold px-8 py-3 rounded-xl shadow-lg hover:scale-105 transition"
+                        >
+                            Ver Premios
+                        </Link>
 
                     </div>
 
                 </div>
-
-            </section>
-
-            {/* BENEFICIOS */}
-            <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-6">
-
-                {[
-                    { title: "Variedad", desc: "Todo lo que necesitas en un solo lugar" },
-                    //{ title: "Rápido", desc: "Atención ágil y eficiente" },
-                    //{ title: "Cercano", desc: "Siempre cerca de tu colonia" },
-                ].map((item, i) => (
-                    <div
-                        key={i}
-                        className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition border border-gray-100"
-                    >
-                        <h3 className="font-semibold text-lg mb-2 text-gray-800">
-                            {item.title}
-                        </h3>
-                        <p className="text-gray-500 text-sm">
-                            {item.desc}
-                        </p>
-                    </div>
-                ))}
 
             </section>
 
@@ -94,9 +77,9 @@ function Home() {
 
                 <div className="mb-10 text-center">
 
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+                    <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
                         Ofertas del Mes
-                    </h2>
+                    </h1>
 
                     <p className="text-gray-500 mt-2">
                         Lo más popular de nuestra tienda
@@ -106,7 +89,7 @@ function Home() {
 
                 {destacados.length === 0 ? (
                     <p className="text-center text-gray-500">
-                        No hay productos destacados aún 😢
+                        No hay productos destacados aún 
                     </p>
                 ) : (
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
